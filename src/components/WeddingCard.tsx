@@ -4,6 +4,7 @@ import { Button } from './ui/button';
 import profileImage from '../images/profile.jpg';
 import coverImage from '../images/cover.jpg';
 import kalashImage from '../images/kalash.png';
+import firstMeetImage from '../images/first_meet.jpg';
 
 
 const Heart = ({ className, fill }: { className?: string; fill?: string }) => (
@@ -169,14 +170,17 @@ const WeddingCard: React.FC = () => {
                             <div className="text-center mb-8">
                                 <h2 className="text-3xl font-cursive font-bold text-rose-800 mb-6">How We Met</h2>
                                 <div className="flex flex-col md:flex-row items-center gap-8 bg-white/50 p-6 rounded-2xl border border-rose-100 shadow-sm">
-                                    <div className="w-full md:w-1/2 aspect-video md:aspect-square relative overflow-hidden rounded-xl">
+                                    <div className="w-full md:w-1/2 aspect-[5/4] relative overflow-hidden rounded-xl shadow-md">
                                         <img
-                                            src={profileImage}
-                                            alt="Couple"
-                                            className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
+                                            src={firstMeetImage}
+                                            alt="First Meet"
+                                            className="object-cover w-full h-full hover:scale-110 transition-transform duration-700"
                                         />
                                     </div>
                                     <div className="w-full md:w-1/2 text-left space-y-4">
+                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
+                                            It started with a simple coffee meet that turned into hours of conversation. We realized we shared not just jokes, but dreams and values.
+                                        </p>
                                         <p className="text-lg text-gray-700 leading-relaxed font-cursive">
                                             It started with a simple coffee meet that turned into hours of conversation. We realized we shared not just jokes, but dreams and values.
                                         </p>
