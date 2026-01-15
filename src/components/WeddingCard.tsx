@@ -182,9 +182,6 @@ const WeddingCard: React.FC = () => {
                                             It started with a simple coffee meet that turned into hours of conversation. We realized we shared not just jokes, but dreams and values.
                                         </p>
                                         <p className="text-lg text-gray-700 leading-relaxed font-cursive">
-                                            It started with a simple coffee meet that turned into hours of conversation. We realized we shared not just jokes, but dreams and values.
-                                        </p>
-                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
                                             From long drives to quiet moments, our bond grew stronger with every passing day. Today, we are best friends ready to become partners for life.
                                         </p>
                                     </div>
