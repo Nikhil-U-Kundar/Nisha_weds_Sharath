@@ -188,6 +188,30 @@ const WeddingCard: React.FC = () => {
                             </div>
                         </div>
 
+                        {/* Engagement Section */}
+                        <div className="mb-12">
+                            <div className="text-center mb-8">
+                                <h2 className="text-3xl font-cursive font-bold text-rose-800 mb-6">Our Engagement</h2>
+                                <div className="flex flex-col md:flex-row items-center gap-8 bg-white/50 p-6 rounded-2xl border border-rose-100 shadow-sm">
+                                    <div className="w-full md:w-1/2 aspect-video md:aspect-square relative overflow-hidden rounded-xl">
+                                        <img
+                                            src={profileImage}
+                                            alt="Engagement"
+                                            className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
+                                        />
+                                    </div>
+                                    <div className="w-full md:w-1/2 text-left space-y-4">
+                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
+                                            Surrounded by our nearest and dearest, we took the first step towards forever. It was a day filled with laughter, blessings, and the promise of a beautiful future together.
+                                        </p>
+                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
+                                            With rings exchanged and hearts united, we celebrated our love and commitment, marking the beginning of our wedding festivities.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         {/* Wedding Events */}
                         <div className="max-w-4xl mx-auto mb-12">
                             <Card className="border-0 shadow-lg !bg-gradient-to-br !from-rose-50 !to-pink-50">
@@ -216,9 +240,9 @@ const WeddingCard: React.FC = () => {
                                                 </div>
                                                 <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
                                                     <div className="flex items-center gap-2">
-                                                        <span className="text-sm font-semibold">Kateel Sri Durgaparameshwari Temple</span>
+                                                        <span className="text-sm font-semibold italic">Kateel Sri Durgaparameshwari Temple</span>
                                                     </div>
-                                                    <span className="text-sm">Kateel</span>
+                                                    <span className="text-sm italic">Kateel</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -239,9 +263,9 @@ const WeddingCard: React.FC = () => {
                                                 </div>
                                                 <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
                                                     <div className="flex items-center gap-2">
-                                                        <span className="text-sm font-semibold">Shree Narayanaguru Sabha Bhavana</span>
+                                                        <span className="text-sm font-semibold italic">Shree Narayanaguru Sabha Bhavana</span>
                                                     </div>
-                                                    <span className="text-sm">Onthibettu, Hiriyadaka</span>
+                                                    <span className="text-sm font-semibold italic">Onthibettu, Hiriyadaka</span>
                                                 </div>
                                             </div>
                                         </div>
