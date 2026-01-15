@@ -59,7 +59,7 @@ const WeddingCard: React.FC = () => {
                             </div>
 
                             <h1 className="text-5xl md:text-7xl lg:text-8xl font-cursive font-bold text-shadow mb-4 whitespace-nowrap">
-                                Nisha & Sharath (test )
+                                Nisha & Sharath
                             </h1>
 
                             <p className="text-2xl md:text-3xl lg:text-4xl font-cursive font-bold">
