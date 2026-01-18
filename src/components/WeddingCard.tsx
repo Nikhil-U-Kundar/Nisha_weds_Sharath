@@ -33,7 +33,7 @@ const WeddingCard: React.FC = () => {
     const [showContact, setShowContact] = useState(false);
 
     return (
-        <div className="bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 p-4">
+        <div className="bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 p-4 font-cursive">
             <div className="w-full max-w-6xl mx-auto">
                 <Card className="overflow-hidden shadow-2xl border-0 !bg-white md:bg-white/90 backdrop-blur-sm">
                     {/* Header Section with Sidebar */}
@@ -87,8 +87,8 @@ const WeddingCard: React.FC = () => {
 
                                 {/* Call for Directions */}
                                 <div className="text-center mb-8 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg">
-                                    <h3 className="text-lg font-semibold text-gray-800 mb-2">Need Directions?</h3>
-                                    <p className="text-gray-600">Please call any of the numbers below for assistance</p>
+                                    <h3 className="text-lg font-semibold text-gray-800 mb-2 font-cursive">Need Directions?</h3>
+                                    <p className="text-lg text-gray-700 leading-relaxed font-cursive">Please call any of the numbers below for assistance</p>
                                 </div>
 
                                 {/* Contact Cards */}
@@ -98,8 +98,8 @@ const WeddingCard: React.FC = () => {
                                         <CardContent className="p-6 text-center">
                                             <h4 className="text-xl text-rose-800 mb-3 font-cursive">Groom's Family</h4>
                                             <div className="space-y-2">
-                                                <p className="text-lg text-gray-800 font-cursive">Sudhakara Kulal</p>
-                                                <p className="text-lg text-gray-600 font-cursive">+91 98765 43210</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">Sudhakara Kulal</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">+91 98765 43210</p>
                                             </div>
                                         </CardContent>
                                     </Card>
@@ -109,8 +109,8 @@ const WeddingCard: React.FC = () => {
                                         <CardContent className="p-6 text-center">
                                             <h4 className="text-xl text-purple-800 mb-3 font-cursive">Bride's Family</h4>
                                             <div className="space-y-2">
-                                                <p className="text-lg text-gray-800 font-cursive">Narayana Kulal</p>
-                                                <p className="text-lg text-gray-600 font-cursive">+91 98765 43211</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">Narayana Kulal</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">+91 98765 43211</p>
                                             </div>
                                         </CardContent>
                                     </Card>
@@ -120,8 +120,8 @@ const WeddingCard: React.FC = () => {
                                         <CardContent className="p-6 text-center">
                                             <h4 className="text-xl text-green-800 mb-3 font-cursive">Wedding Coordinator</h4>
                                             <div className="space-y-2">
-                                                <p className="text-lg text-gray-800 font-cursive">Event Manager</p>
-                                                <p className="text-lg text-gray-600 font-cursive">+91 98765 43212</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">Event Manager</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">+91 98765 43212</p>
                                             </div>
                                         </CardContent>
                                     </Card>
@@ -131,8 +131,8 @@ const WeddingCard: React.FC = () => {
                                         <CardContent className="p-6 text-center">
                                             <h4 className="text-xl text-orange-800 mb-3 font-cursive">Venue Contact</h4>
                                             <div className="space-y-2">
-                                                <p className="text-lg text-gray-800 font-cursive">Shree Narayanaguru Sabha Bhavana</p>
-                                                <p className="text-lg text-gray-600 font-cursive">+91 98765 43213</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">Shree Narayanaguru Sabha Bhavana</p>
+                                                <p className="text-lg text-gray-700 leading-relaxed font-cursive">+91 98765 43213</p>
                                             </div>
                                         </CardContent>
                                     </Card>
@@ -141,7 +141,7 @@ const WeddingCard: React.FC = () => {
                                 {/* Quick Actions */}
                                 <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
                                     <Button
-                                        className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full"
+                                        className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-cursive text-lg"
                                         onClick={() => window.open('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.383394659039!2d74.85170878538254!3d13.348536944330636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbca59f4a0bad7f%3A0x13987319ccda0198!2sMadhava%20Mangala%20Sabha%20Bhavana!5e0!3m2!1sen!2sin!4v1760248826397!5m2!1sen!2sin', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4 mr-2" />
@@ -149,7 +149,7 @@ const WeddingCard: React.FC = () => {
                                     </Button>
                                     <Button
                                         variant="outline"
-                                        className="border-blue-300 text-blue-700 hover:bg-blue-50 px-6 py-2 rounded-full"
+                                        className="border-blue-300 text-blue-700 hover:bg-blue-50 px-6 py-2 rounded-full font-cursive text-lg"
                                         onClick={() => setShowContact(false)}
                                     >
                                         Close
@@ -162,7 +162,7 @@ const WeddingCard: React.FC = () => {
                     {/* Rest of the component remains the same */}
                     <CardContent className="p-8 md:p-12 mt-7">
                         <div className="text-center mb-12">
-                            <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto font-cursive">
+                            <p className="text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto font-cursive">
                                 Together with our families, we invite you to celebrate our special day as we begin our journey as one.
                             </p>
                         </div>
@@ -170,7 +170,7 @@ const WeddingCard: React.FC = () => {
                         {/* Engagement Section */}
                         <div className="mb-12">
                             <div className="text-center mb-8">
-                                <h2 className="text-3xl font-cursive text-rose-800 mb-6">Our Engagement</h2>
+                                <h2 className="text-3xl font-cursive text-rose-800 mb-6 font-bold">Our Engagement</h2>
                                 <div className="flex flex-col md:flex-row items-center gap-8 bg-white/50 p-6 rounded-2xl border border-rose-100 shadow-sm">
                                     <div className="w-full md:w-1/2 aspect-video md:aspect-square relative overflow-hidden rounded-xl">
                                         <img
@@ -180,10 +180,10 @@ const WeddingCard: React.FC = () => {
                                         />
                                     </div>
                                     <div className="w-full md:w-1/2 text-left space-y-4">
-                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
+                                        <p className="text-xl text-gray-700 leading-relaxed font-cursive">
                                             Surrounded by our nearest and dearest, we took the first step towards forever. It was a day filled with laughter, blessings, and the promise of a beautiful future together.
                                         </p>
-                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
+                                        <p className="text-xl text-gray-700 leading-relaxed font-cursive">
                                             With rings exchanged and hearts united, we celebrated our love and commitment, marking the beginning of our wedding festivities.
                                         </p>
                                     </div>
@@ -207,13 +207,13 @@ const WeddingCard: React.FC = () => {
                                         </div>
                                         <h3 className="text-xl font-cursive text-green-800 font-bold">Mehendi Ceremony</h3>
                                         <div className="space-y-2">
-                                            <p className="text-2xl text-gray-800 mb-2 italic font-cursive">Friday, February 20th, 2026</p>
+                                            <p className="text-2xl text-gray-800 mb-2 italic font-cursive font-bold">Friday, February 20th, 2026</p>
                                             <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
                                                 <div className="flex items-center gap-2">
-                                                    <span className="text-sm italic font-cursive font-bold">Nisha Nilaya</span>
+                                                    <span className="text-xl italic font-cursive">Nisha Nilaya</span>
                                                 </div>
-                                                <span className="text-sm italic font-cursive font-bold">Parika Mahalingeshwara Temple Road</span>
-                                                <span className="text-sm italic font-cursive font-bold">Athradi Post, Udupi</span>
+                                                <span className="text-xl italic font-cursive">Parika Mahalingeshwara Temple Road</span>
+                                                <span className="text-xl italic font-cursive">Athradi Post, Udupi</span>
                                             </div>
                                         </div>
                                     </div>
@@ -222,7 +222,7 @@ const WeddingCard: React.FC = () => {
                                     <div className="w-3/4 mx-auto h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent my-8"></div>
 
 
-                                    <p className="text-2xl text-gray-800 mb-8 italic font-cursive">Sunday, February 22nd, 2026</p>
+                                    <p className="text-2xl text-gray-800 mb-8 italic font-cursive font-bold">Sunday, February 22nd, 2026</p>
 
                                     <div className="grid md:grid-cols-2 gap-8 items-start relative">
                                         {/* Vertical Separator for Desktop */}
@@ -237,13 +237,13 @@ const WeddingCard: React.FC = () => {
                                             <div className="space-y-2">
                                                 <div className="flex items-center justify-center gap-2 text-gray-700 bg-white/50 py-1 px-3 rounded-full inline-flex">
                                                     <Clock className="w-2 h-4" />
-                                                    <span className="font-cursive">10:05 AM (Mesha Lagnam)</span>
+                                                    <span className="font-cursive font-bold">10:05 AM (Mesha Lagnam)</span>
                                                 </div>
                                                 <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
                                                     <div className="flex items-center gap-2">
-                                                        <span className="text-sm italic font-cursive font-bold">Kateel Sri Durgaparameshwari Temple</span>
+                                                        <span className="text-xl italic font-cursive">Kateel Sri Durgaparameshwari Temple</span>
                                                     </div>
-                                                    <span className="text-sm italic font-cursive font-bold">Kateel</span>
+                                                    <span className="text-xl italic font-cursive">Kateel</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -260,13 +260,13 @@ const WeddingCard: React.FC = () => {
                                             <div className="space-y-2">
                                                 <div className="flex items-center justify-center gap-2 text-gray-700 bg-white/50 py-1 px-3 rounded-full inline-flex">
                                                     <Clock className="w-4 h-4" />
-                                                    <span className="font-cursive">12:30 PM Onwards</span>
+                                                    <span className="font-cursive font-bold">12:30 PM Onwards</span>
                                                 </div>
                                                 <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
                                                     <div className="flex items-center gap-2">
-                                                        <span className="text-sm italic font-cursive font-bold">Shree Narayanaguru Sabha Bhavana</span>
+                                                        <span className="text-xl italic font-cursive">Shree Narayanaguru Sabha Bhavana</span>
                                                     </div>
-                                                    <span className="text-sm italic font-cursive font-bold">Onthibettu, Hiriyadaka</span>
+                                                    <span className="text-xl italic font-cursive">Onthibettu, Hiriyadaka</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -282,7 +282,7 @@ const WeddingCard: React.FC = () => {
                             <div className="my-8 h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent" />
 
                             <div className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl p-8 border border-rose-100">
-                                <p className="text-gray-700 mb-6 italic font-cursive font-bold">
+                                <p className="text-xl text-gray-700 leading-relaxed mb-6 italic font-cursive font-bold">
                                     We can't wait to celebrate with you! Click the buttons below to find the venue locations.
                                 </p>
                                 <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -316,7 +316,7 @@ const WeddingCard: React.FC = () => {
                         {/* Designer Credit */}
                         <div className="text-center text-gray-400 mt-4">
                             <p className="text-xs">
-                                Designed by NK 
+                                Designed by NK
                             </p>
                         </div>
                     </CardContent>
