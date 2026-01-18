@@ -242,7 +242,7 @@ const WeddingCard: React.FC = () => {
                                                 <div className="flex items-center gap-2">
                                                     <span className="text-sm font-semibold italic">Nisha Nilaya</span>
                                                 </div>
-                                                <span className="text-sm italic">Parika Mahalengeshware Temple Road</span>
+                                                <span className="text-sm italic">Parika Mahalingeshwara Temple Road</span>
                                                 <span className="text-sm italic">Athraydi Post, Udupi</span>
                                             </div>
                                         </div>
