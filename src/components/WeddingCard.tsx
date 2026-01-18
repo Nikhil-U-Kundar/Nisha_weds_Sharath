@@ -4,7 +4,7 @@ import { Button } from './ui/button';
 import profileImage from '../images/profile.jpg';
 import coverImage from '../images/cover.jpg';
 import kalashImage from '../images/kalash.png';
-import firstMeetImage from '../images/first_meet.jpg';
+import mehendiImage from '../images/mehendi.png';
 
 
 const Heart = ({ className, fill }: { className?: string; fill?: string }) => (
@@ -27,13 +27,7 @@ const Clock = ({ className }: { className?: string }) => (
     </svg>
 );
 
-const MehendiIcon = ({ className }: { className?: string }) => (
-    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor">
-        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
-        <path d="M12 6c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6s6-2.69 6-6c0-3.31-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" />
-        <circle cx="12" cy="12" r="2" />
-    </svg>
-);
+
 
 const WeddingCard: React.FC = () => {
     const [showContact, setShowContact] = useState(false);
@@ -173,30 +167,6 @@ const WeddingCard: React.FC = () => {
                             </p>
                         </div>
 
-                        {/* How We Met Section */}
-                        <div className="mb-12">
-                            <div className="text-center mb-8">
-                                <h2 className="text-3xl font-cursive font-bold text-rose-800 mb-6">How We Met</h2>
-                                <div className="flex flex-col md:flex-row items-center gap-8 bg-white/50 p-6 rounded-2xl border border-rose-100 shadow-sm">
-                                    <div className="w-full md:w-1/2 aspect-[5/4] relative overflow-hidden rounded-xl shadow-md">
-                                        <img
-                                            src={firstMeetImage}
-                                            alt="First Meet"
-                                            className="object-cover w-full h-full scale-110 hover:scale-90 transition-transform duration-700"
-                                        />
-                                    </div>
-                                    <div className="w-full md:w-1/2 text-left space-y-4">
-                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
-                                            It started with a simple coffee meet that turned into hours of conversation. We realized we shared not just jokes, but dreams and values.
-                                        </p>
-                                        <p className="text-lg text-gray-700 leading-relaxed font-cursive">
-                                            From long drives to quiet moments, our bond grew stronger with every passing day. Today, we are best friends ready to become partners for life.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         {/* Engagement Section */}
                         <div className="mb-12">
                             <div className="text-center mb-8">
@@ -232,8 +202,8 @@ const WeddingCard: React.FC = () => {
                                 <CardContent className="text-center p-6 md:p-8">
                                     {/* Mehendi Ceremony */}
                                     <div className="flex flex-col items-center space-y-4 mb-10">
-                                        <div className="bg-green-100 p-3 rounded-full text-green-600 mb-1">
-                                            <MehendiIcon className="w-12 h-12" />
+                                        <div className="bg-green-100 p-0.5 rounded-full text-green-600 mb-1">
+                                            <img src={mehendiImage} className="w-12 h-12 object-cover rounded-full" alt="Mehendi" />
                                         </div>
                                         <h3 className="text-xl font-cursive text-green-800 font-bold">Mehendi Ceremony</h3>
                                         <div className="space-y-2">
