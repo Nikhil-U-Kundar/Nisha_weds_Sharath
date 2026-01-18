@@ -27,6 +27,14 @@ const Clock = ({ className }: { className?: string }) => (
     </svg>
 );
 
+const MehendiIcon = ({ className }: { className?: string }) => (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+        <path d="M12 6c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6s6-2.69 6-6c0-3.31-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z" />
+        <circle cx="12" cy="12" r="2" />
+    </svg>
+);
+
 const WeddingCard: React.FC = () => {
     const [showContact, setShowContact] = useState(false);
 
@@ -218,10 +226,32 @@ const WeddingCard: React.FC = () => {
                             <Card className="border-0 shadow-lg !bg-gradient-to-br !from-rose-50 !to-pink-50">
                                 <CardHeader className="text-center pb-4">
                                     <CardTitle className="text-3xl font-cursive text-rose-800 flex items-center justify-center gap-3">
-                                        Wedding Day
+                                        Wedding Celebrations
                                     </CardTitle>
                                 </CardHeader>
                                 <CardContent className="text-center p-6 md:p-8">
+                                    {/* Mehendi Ceremony */}
+                                    <div className="flex flex-col items-center space-y-4 mb-10">
+                                        <div className="bg-green-100 p-3 rounded-full text-green-600 mb-1">
+                                            <MehendiIcon className="w-12 h-12" />
+                                        </div>
+                                        <h3 className="text-xl font-cursive text-green-800 font-bold">Mehendi Ceremony</h3>
+                                        <div className="space-y-2">
+                                            <p className="text-2xl text-gray-800 mb-2 italic">Friday, February 20th, 2026</p>
+                                            <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
+                                                <div className="flex items-center gap-2">
+                                                    <span className="text-sm font-semibold italic">Nisha Nilaya</span>
+                                                </div>
+                                                <span className="text-sm italic">Parika Mahalengeshware Temple Road</span>
+                                                <span className="text-sm italic">Athraydi Post, Udupi</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* Separator */}
+                                    <div className="w-3/4 mx-auto h-px bg-gradient-to-r from-transparent via-rose-300 to-transparent my-8"></div>
+
+
                                     <p className="text-2xl text-gray-800 mb-8 italic">Sunday, February 22nd, 2026</p>
 
                                     <div className="grid md:grid-cols-2 gap-8 items-start relative">
