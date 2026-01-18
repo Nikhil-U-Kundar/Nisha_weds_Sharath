@@ -174,7 +174,7 @@ const WeddingCard: React.FC = () => {
                                         <img
                                             src={firstMeetImage}
                                             alt="First Meet"
-                                            className="object-cover w-full h-full hover:scale-110 transition-transform duration-700"
+                                            className="object-cover w-full h-full scale-110 hover:scale-90 transition-transform duration-700"
                                         />
                                     </div>
                                     <div className="w-full md:w-1/2 text-left space-y-4">
