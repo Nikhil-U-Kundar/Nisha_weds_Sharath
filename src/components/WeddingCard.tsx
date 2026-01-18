@@ -61,11 +61,11 @@ const WeddingCard: React.FC = () => {
                                 <Heart className="w-10 h-10 md:w-12 md:h-12 text-rose-500 lg:text-white/90" fill="currentColor" />
                             </div>
 
-                            <h1 className="text-5xl md:text-7xl lg:text-8xl font-cursive text-shadow mb-4 whitespace-nowrap">
+                            <h1 className="text-5xl md:text-7xl lg:text-8xl font-cursive font-bold text-shadow mb-4 whitespace-nowrap">
                                 Nisha & Sharath
                             </h1>
 
-                            <p className="text-2xl md:text-3xl lg:text-4xl font-cursive">
+                            <p className="text-2xl md:text-3xl lg:text-4xl font-cursive font-bold">
                                 are getting married!
                             </p>
                         </div>
@@ -205,7 +205,7 @@ const WeddingCard: React.FC = () => {
                                         <div className="bg-green-100 p-0.5 rounded-full text-green-600 mb-1">
                                             <img src={mehendiImage} className="w-12 h-12 object-cover rounded-full" alt="Mehendi" />
                                         </div>
-                                        <h3 className="text-xl font-cursive text-green-800">Mehendi Ceremony</h3>
+                                        <h3 className="text-xl font-cursive text-green-800 font-bold">Mehendi Ceremony</h3>
                                         <div className="space-y-2">
                                             <p className="text-2xl text-gray-800 mb-2 italic font-cursive">Friday, February 20th, 2026</p>
                                             <div className="flex flex-col items-center gap-1 text-gray-600 mt-2">
@@ -233,7 +233,7 @@ const WeddingCard: React.FC = () => {
                                             <div className="bg-rose-100 p-3 rounded-full text-rose-600 mb-1">
                                                 <img src={kalashImage} className="w-12 h-12 object-contain" alt="Kalash" />
                                             </div>
-                                            <h3 className="text-xl font-cursive text-rose-800">Muhurtham</h3>
+                                            <h3 className="text-xl font-cursive text-rose-800 font-bold">Muhurtham</h3>
                                             <div className="space-y-2">
                                                 <div className="flex items-center justify-center gap-2 text-gray-700 bg-white/50 py-1 px-3 rounded-full inline-flex">
                                                     <Clock className="w-2 h-4" />
@@ -256,7 +256,7 @@ const WeddingCard: React.FC = () => {
                                             <div className="bg-orange-100 p-3 rounded-full text-orange-600 mb-1">
                                                 <img src="https://api.iconify.design/noto:clinking-glasses.svg" className="w-8 h-8" alt="Cheers" />
                                             </div>
-                                            <h3 className="text-xl font-cursive text-orange-800">Reception</h3>
+                                            <h3 className="text-xl font-cursive text-orange-800 font-bold">Reception</h3>
                                             <div className="space-y-2">
                                                 <div className="flex items-center justify-center gap-2 text-gray-700 bg-white/50 py-1 px-3 rounded-full inline-flex">
                                                     <Clock className="w-4 h-4" />
@@ -288,7 +288,7 @@ const WeddingCard: React.FC = () => {
                                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                                     <Button
                                         size="lg"
-                                        className="bg-rose-600 hover:bg-rose-700 text-white gap-2 rounded-full px-8 font-cursive"
+                                        className="bg-rose-600 hover:bg-rose-700 text-white gap-2 rounded-full px-8 font-cursive font-bold"
                                         onClick={() => window.open('https://maps.app.goo.gl/5RABFi7JFYCQgyFe7', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4" />
@@ -297,7 +297,7 @@ const WeddingCard: React.FC = () => {
                                     <Button
                                         size="lg"
                                         variant="outline"
-                                        className="border-rose-200 text-rose-700 hover:bg-rose-50 gap-2 rounded-full px-8 font-cursive"
+                                        className="border-rose-200 text-rose-700 hover:bg-rose-50 gap-2 rounded-full px-8 font-cursive font-bold"
                                         onClick={() => window.open('https://maps.app.goo.gl/P33ZWdYzxne7ZLXAA', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4" />
