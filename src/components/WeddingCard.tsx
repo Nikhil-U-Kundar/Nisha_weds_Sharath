@@ -316,7 +316,7 @@ const WeddingCard: React.FC = () => {
                         {/* Designer Credit */}
                         <div className="text-center text-gray-400 mt-4">
                             <p className="text-xs">
-                                Designed by Nikhil
+                                Designed by Nikhil K
                             </p>
                         </div>
                     </CardContent>
