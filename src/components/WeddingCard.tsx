@@ -289,8 +289,8 @@ const WeddingCard: React.FC = () => {
                                     <Button
                                         size="lg"
                                         variant="outline"
-                                        className="border-emerald-200 text-emerald-700 hover:bg-emerald-50 gap-2 rounded-full px-8 font-cursive font-extrabold"
-                                        onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Nisha+Nilaya+Athradi+Udupi', '_blank')}
+                                        className="border-emerald-700 text-emerald-900 hover:bg-emerald-50 gap-2 rounded-full px-8 font-cursive font-extrabold"
+                                        onClick={() => window.open('https://maps.app.goo.gl/2TDYbqyGeZaXhdi67', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4" />
                                         Mehendi Location
