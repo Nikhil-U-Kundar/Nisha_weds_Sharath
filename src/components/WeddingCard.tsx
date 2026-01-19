@@ -288,7 +288,16 @@ const WeddingCard: React.FC = () => {
                                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                                     <Button
                                         size="lg"
-                                        className="bg-rose-600 hover:bg-rose-700 text-white gap-2 rounded-full px-8 font-cursive font-bold"
+                                        variant="outline"
+                                        className="border-emerald-200 text-emerald-700 hover:bg-emerald-50 gap-2 rounded-full px-8 font-cursive font-extrabold"
+                                        onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Nisha+Nilaya+Athradi+Udupi', '_blank')}
+                                    >
+                                        <MapPin className="w-4 h-4" />
+                                        Mehendi Location
+                                    </Button>
+                                    <Button
+                                        size="lg"
+                                        className="bg-rose-600 hover:bg-rose-700 text-white gap-2 rounded-full px-8 font-cursive font-extrabold"
                                         onClick={() => window.open('https://maps.app.goo.gl/5RABFi7JFYCQgyFe7', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4" />
@@ -297,7 +306,7 @@ const WeddingCard: React.FC = () => {
                                     <Button
                                         size="lg"
                                         variant="outline"
-                                        className="border-rose-200 text-rose-700 hover:bg-rose-50 gap-2 rounded-full px-8 font-cursive font-bold"
+                                        className="border-rose-200 text-rose-700 hover:bg-rose-50 gap-2 rounded-full px-8 font-cursive font-extrabold"
                                         onClick={() => window.open('https://maps.app.goo.gl/P33ZWdYzxne7ZLXAA', '_blank')}
                                     >
                                         <MapPin className="w-4 h-4" />
@@ -309,13 +318,13 @@ const WeddingCard: React.FC = () => {
 
                         {/* Footer */}
                         <div className="text-center text-gray-500">
-                            <p className="text-sm font-cursive font-bold">
+                            <p className="text-lg font-cursive font-bold">
                                 "Two souls, one heart, forever together"
                             </p>
                         </div>
                         {/* Designer Credit */}
                         <div className="text-center text-gray-400 mt-4">
-                            <p className="text-xs">
+                            <p className="text-xs font-sans">
                                 Designed by Nikhil K
                             </p>
                         </div>
